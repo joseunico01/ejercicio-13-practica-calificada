@@ -29,7 +29,7 @@ public class Ejer13 {
                 matriz2[i][j]=entrada.nextFloat();
             }
         }     
-        
+        System.out.println("");
         System.out.println("Suma de las 2 matrices: ");
         for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){
@@ -44,7 +44,23 @@ public class Ejer13 {
             System.out.println("");
         }
         
-     //mostramos la suma de matrices
+        System.out.println("");
+        System.out.println("El promedio de marices: ");
+     //hacemos el promedio
+     for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
+                arreglo[i][j]=(matriz1[i][j]+matriz2[i][j])/2;
+            }
+        }
+     for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
+                System.out.print(arreglo[i][j]+" ");
+            }
+            System.out.println("");
+        }
+        
+        
+        
 
     }
 }
